@@ -1,5 +1,12 @@
 #!/bin/bash
 
+if [ "$1" == "--help" ];
+then
+echo " Dostępne opcje: "
+echo "--date wyświetla aktualną datę"
+echo "--logs X Tworzy X plików o nazwie logX.txt i wpisuje do nich dane"
+echo "--logs Powtarza powyższy punkt ze 100 plikami"
+fi
 Today=$(date_
 if [ "$1" == "--date" ];
 then
