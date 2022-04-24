@@ -9,6 +9,12 @@ echo "--logs X Tworzy X plików o nazwie logX.txt i wpisuje do nich dane"
 echo "-l robi to samo co opcja wyżej"
 echo "--logs Powtarza powyższy punkt ze 100 plikami"
 echo "-l robi to samo co opcja wyżej"
+echo "--init - kolnuje repo i zmienia zmienna PATH"
+echo "-i robi to samo co wyżej"
+echo "--error X tworzy X plikow o nazwie logX.txt i wpisuje do nich dane"
+echo "-e X robi to samo co wyżej"
+echo "-error jak wyzej ale tworzy 100 plikow"
+echo "-e Powtarza powyższy punkt ze 100 plikami"
 fi
 Today=$(date_
 if [ "$1" == "--date" ] || [ "$1" == "-d" ];
