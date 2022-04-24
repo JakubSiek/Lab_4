@@ -32,3 +32,9 @@ do
 	echo $Today >> log$i.txt
 done
 fi
+
+if [ "$1" == "--init" ] || [ "$1" == "-i" ];
+then
+	git clone https://github.com/JakubSiek/lab_4.git
+	expoty PATH="$PWD:$PATH"
+fi
